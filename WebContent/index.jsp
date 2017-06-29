@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<jsp:include page="padrao/cabecalho.jsp"/>
+<jsp:include page="template/cabecalho.jsp"/>
 <!DOCTYPE html>
 <html>
 <body>
@@ -9,4 +9,4 @@
 	</div>
 </body>
 </html>
-<jsp:include page="padrao/rodape.jsp"/>
+<jsp:include page="template/rodape.jsp"/>

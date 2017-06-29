@@ -27,7 +27,7 @@
 					<th></th>
 					<td>
 						<input type="submit" name="enviar" value="Enviar"/>
-						<input type="submit" name="cancelar" value="Cancelar" /> <!-- onclick="history.go(-1);" -->
+						<input type="button" name="cancelar" value="Cancelar" /> <!-- onclick="history.go(-1);" -->
 					</td>
 				</tr>
 			</table>
@@ -35,4 +35,4 @@
 	</form>
 </body>
 </html>
-<jsp:include page="padrao/rodape.jsp"/>
+<jsp:include page="template/rodape.jsp"/>
