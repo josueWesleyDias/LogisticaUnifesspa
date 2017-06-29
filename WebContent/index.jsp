@@ -7,6 +7,11 @@
 	<div align="center">
 		<h1>Bem vindo</h1>
 	</div>
+	<div align="center">
+		<nav>
+			<a href="listarTransportadores">Listar Transportadores</a>
+		</nav>
+	</div>
 </body>
 </html>
 <jsp:include page="template/rodape.jsp"/>

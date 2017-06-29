@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +12,13 @@
 </head>
 <body>
 	<div align="right">
-		<input type="submit" name="login" value="Login" onclick="window.location.href='login.jsp'">
-		<input type="submit" name="cadastro" value="Cadastre-se">
+		<%-- <c:if test="${ !session.logado }"> --%>
+			<input type="submit" name="login" value="Login" onclick="window.location.href='login.jsp'">
+			<input type="submit" name="cadastro" value="Cadastre-se" onclick="window.location.href='cadastro.jsp'">
+		<%-- </c:if> --%>
+		<%-- <c:otherwise>
+    		Bem vindo(a) <c:out value="${ !session.logado.nome }"/>
+  		</c:otherwise> --%>
 	</div>
 	<div align="center">
 		<h2>Logistica</h2>

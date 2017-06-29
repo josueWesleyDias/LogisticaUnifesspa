@@ -8,7 +8,7 @@
 	</head>
 <body>
 	<div align="center">
-		<h2>Logistica</h2>
+		<h2>TransLog</h2>
 		<h4>Onde você encotra o seu transporte</h4>
 	</div>
 	<form action="" method="post">
